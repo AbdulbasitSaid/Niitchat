@@ -41,6 +41,10 @@ public class FriendlyMessage {
         this.id = id;
     }
 
+    public String getText() {
+        return text;
+    }
+
     public void setText(String text) {
         this.text = text;
     }
@@ -55,10 +59,6 @@ public class FriendlyMessage {
 
     public String getPhotoUrl() {
         return photoUrl;
-    }
-
-    public String getText() {
-        return text;
     }
 
     public void setPhotoUrl(String photoUrl) {
